@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "minitouch-just-one-touch@^1.0.0",
+        "scope": null,
+        "escapedName": "minitouch-just-one-touch",
+        "name": "minitouch-just-one-touch",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "/tmp/build"
+    ]
+  ],
+  "_from": "minitouch-just-one-touch@>=1.0.0 <2.0.0",
+  "_id": "minitouch-just-one-touch@1.0.1",
+  "_inCache": true,
+  "_location": "/minitouch-just-one-touch",
+  "_nodeVersion": "6.14.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/minitouch-just-one-touch_1.0.1_1529228282446_0.058622543046650266"
+  },
+  "_npmUser": {
+    "name": "gounthar",
+    "email": "gounthar@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "minitouch-just-one-touch@^1.0.0",
+    "scope": null,
+    "escapedName": "minitouch-just-one-touch",
+    "name": "minitouch-just-one-touch",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/minitouch-just-one-touch/-/minitouch-just-one-touch-1.0.1.tgz",
+  "_shasum": "1e22c4662fd9cab58379f00a3a06169c774a0ec5",
+  "_shrinkwrap": null,
+  "_spec": "minitouch-just-one-touch@^1.0.0",
+  "_where": "/tmp/build",
+  "author": {
+    "name": "Bruno Verachten"
+  },
+  "bugs": {
+    "url": "https://github.com/gounthar/minitouch/issues"
+  },
+  "dependencies": {},
+  "description": "Just a simple try to get the OrangePi Android SBC to work with openSTF",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "1e22c4662fd9cab58379f00a3a06169c774a0ec5",
+    "tarball": "https://registry.npmjs.org/minitouch-just-one-touch/-/minitouch-just-one-touch-1.0.1.tgz",
+    "fileCount": 71,
+    "unpackedSize": 553664
+  },
+  "gitHead": "d3a34129609477acad32dd663a6242f453ee6ab7",
+  "homepage": "https://github.com/gounthar/minitouch#readme",
+  "keywords": [
+    "openstf",
+    "minitouch",
+    "orangepi"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "gounthar",
+      "email": "gounthar@gmail.com"
+    }
+  ],
+  "name": "minitouch-just-one-touch",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gounthar/minitouch.git"
+  },
+  "scripts": {
+    "prepublish": "make"
+  },
+  "version": "1.0.2"
+}
