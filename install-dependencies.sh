@@ -9,4 +9,4 @@ echo "ANDROID_NDK_HOME set to $ANDROID_NDK_HOME"
 echo "PATH set to $PATH"
 gem install travis
 travis login --org --github-token $GITHUB_KEY
-travis setup npm
+#travis setup npm
