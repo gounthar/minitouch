@@ -20,7 +20,7 @@ Then it's simply a matter of invoking `build.sh`.
 ```
 ndk-build
 ```
-You should now have the binaries available in `./libs`.
+You should now have the binaries available in `./prebuilt`.
 
 ## Publishing
 
