@@ -15,12 +15,16 @@ git submodule init
 git submodule update
 ```
 
-Then it's simply a matter of invoking `ndk-build`.
+Then it's simply a matter of invoking `build.sh`.
 
 ```
 ndk-build
 ```
 You should now have the binaries available in `./libs`.
+
+## Publishing
+
+Change the name of the module, then issue `npm publish` (which will ask you to issue `npm adduser` if you haven't added a user yet). Then automagically your module will be available for everyone.
 
 ## Running
 
