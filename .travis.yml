@@ -13,7 +13,6 @@ script:
 
 after_success:
   - tar -zcvf minitouch.tar.gz -C libs .
-  - 4e4f4d34-2ff9-47ff-9448-fe88225f3984
 
 deploy:
   provider: npm
