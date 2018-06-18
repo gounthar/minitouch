@@ -6,6 +6,7 @@ env:
 
 install:
   - ./install-dependencies.sh
+  - travis setup npm
 
 script:
   - $ANDROID_NDK_HOME/ndk-build
