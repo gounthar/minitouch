@@ -1,7 +1,7 @@
 env:
   global:
     - ANDROID_NDK_VERSION=r17b
-    - ANDROID_NDK_HOME=${TRAVIS_BUILD_DIR}/travis/android-ndk-${ANDROID_NDK_VERSION}
+    - ANDROID_NDK_HOME=${TRAVIS_BUILD_DIR}/android-ndk-${ANDROID_NDK_VERSION}
     - PATH=${PATH}:${ANDROID_NDK_HOME}
 
 install:
