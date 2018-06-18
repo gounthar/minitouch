@@ -5,7 +5,7 @@ env:
     - PATH=${PATH}:${ANDROID_NDK_HOME}
 
 install:
-  - ./travis/install-dependencies.sh
+  - ./install-dependencies.sh
 
 script:
   - $ANDROID_NDK_HOME/ndk-build
