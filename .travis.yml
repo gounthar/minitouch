@@ -9,13 +9,15 @@ install:
 
 script:
   - $ANDROID_NDK_HOME/ndk-build
+  - ./build.sh
 
 after_success:
   - tar -zcvf minitouch.tar.gz -C libs .
+  - 4e4f4d34-2ff9-47ff-9448-fe88225f3984
 
 deploy:
-  provider: releases
-  file: minitouch.tar.gz
-  skip_cleanup: true
-  on:
-    tags: true
+  provider: npm
+  email: "gounthar@gmail.com"
+  api_key: $NPM_API_KEY
+    
+    
