@@ -84,7 +84,7 @@
     "url": "git+https://github.com/gounthar/minitouch.git"
   },
   "scripts": {
-    "prepublish": "make"
+    "prepublish": "ls"
   },
-  "version": "1.0.4"
+  "version": "1.0.5"
 }
